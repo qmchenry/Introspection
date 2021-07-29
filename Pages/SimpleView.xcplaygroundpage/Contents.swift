@@ -4,7 +4,9 @@ import PlaygroundSupport
 struct SimpleView0: View {
     var body: some View {
         Text("some View")
-            .padding()
+//            .foregroundColor(.white)
+//            .padding()
+//            .background(Color.blue)
             .mirror()
     } 
 }

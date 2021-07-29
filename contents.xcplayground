@@ -2,10 +2,11 @@
 <playground version='6.0' target-platform='ios' buildActiveScheme='true' executeOnSourceChanges='true' importAppTypes='true'>
     <pages>
         <page name='SimpleView'/>
+        <page name='ButtonView'/>
         <page name='Stacks'/>
         <page name='SwitchView'/>
-        <page name='ViewBuilder'/>
         <page name='ConditionalView'/>
+        <page name='ViewBuilder'/>
         <page name='ForEachView'/>
     </pages>
 </playground>

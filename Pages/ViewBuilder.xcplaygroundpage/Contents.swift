@@ -1,11 +1,11 @@
 import SwiftUI
 import PlaygroundSupport
 
-struct IdentityView: View {
+struct ViewBuilderView: View {
     @State private var on = false
     var body: some View {
         eitherOr()
-            .mirror()
+            .mirror() 
             .onTapGesture { on.toggle() }
     }
 
@@ -19,4 +19,4 @@ struct IdentityView: View {
     }
 }
 
-PlaygroundPage.current.setLiveView(IdentityView())
+PlaygroundPage.current.setLiveView(ViewBuilderView())

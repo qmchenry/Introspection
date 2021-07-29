@@ -2,7 +2,8 @@ import SwiftUI
 import PlaygroundSupport
 
 struct ForEachView: View {
-    let things = ["🐱", "🐶", "🙈", "🐻", "🦊"]
+    let things =
+        ["🐱", "🐶", "🙈", "🐻", "🦊"]
     var body: some View {
         ForEach(things, id: \.self) { thing in
             Text(thing)
